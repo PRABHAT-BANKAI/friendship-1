@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Day</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💛 Happy Friendship Day 💛</h1>
+        <p class="quote">"Good friends are like stars, you don't always see them, but you know they're always there."</p>
+
+        <button id="wishBtn">Send Friendship Wish 🎉</button>
+        <div id="wishMessage"></div>
+
+        <div class="hearts"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Friendship Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <canvas id="heartsCanvas"></canvas>
+
+    <header>
+        <h1>💛 Happy Friendship Day 💛</h1>
+        <p>Celebrating the beautiful bond of friendship</p>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Friends are the family we choose 💕</h2>
+        <p>Thank you for being part of my life!</p>
+    </section>
+
+    <!-- Countdown Section -->
+    <section class="countdown">
+        <h2>Countdown to Friendship Day 🎉</h2>
+        <div id="timer">Loading...</div>
+    </section>
+
+    <!-- Quotes Section -->
+    <section class="quotes">
+        <h2>Friendship Quotes 💬</h2>
+        <p id="quote">Loading quotes...</p>
+        <button onclick="newQuote()">Get New Quote</button>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery">
+        <h2>Friendship Memories 📸</h2>
+        <div class="images">
+            <img src="./9155dcdf-affd-4539-825a-110678d43ee8.jpg" alt="Friends">
+            <img src="./IMG_0663.HEIC" alt="Friends">
+            <img src="./IMG_4885.HEIC" alt="Friends">
+        </div>
+    </section>
+
+    <!-- Music Control -->
+    <section class="music">
+        <h2>Background Music 🎶</h2>
+        <button onclick="toggleMusic()">Play / Pause Music</button>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ for all my amazing friends</p>
+    </footer>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="./7years-620045-mobiles24.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="./script.js"></script>
+</body>
+</html>
